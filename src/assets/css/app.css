@@ -1,0 +1,144 @@
+
+
+
+html, body {
+	background-image: url(https://media.canadianunderwriter.ca/uploads/2020/04/iStock-1211544068.jpg);
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;	
+}
+
+.main-container .card-container {
+	padding: 40px 0;
+	margin: 50px 0px;
+}
+
+.cards {
+	min-height: 150px;
+	margin: 0 2% !important;
+	backdrop-filter: blur(8px);
+}
+.active {
+	border-radius: 25px !important;
+	background: rgba(9, 21, 248, 0.3) !important;
+	color: #fff !important;
+	text-shadow:0 0 2px rgb(0, 0, 255),
+			   0 0 4px rgb(0, 0, 255),
+			   0 0 8px rgb(0, 0, 255),	
+			   0 0 16px rgb(0, 0, 255)!important;
+	box-shadow:0 0 2px rgb(0, 0, 255),
+			   0 0 4px rgb(0, 0, 255),
+			   0 0 8px rgb(0, 0, 255),	
+			   0 0 16px rgb(0, 0, 255)!important;
+}
+
+.recover {
+	border-radius: 25px !important;
+	background: rgba(0, 255, 0, 0.3) !important;
+	color: #fff !important;
+	text-shadow:0 0 2px rgb(255, 0, 0),
+			   0 0 4px rgb(255, 0, 0),
+			   0 0 8px rgb(255, 0, 0),	
+			   0 0 16px rgb(255, 0, 0)!important;
+	box-shadow:0 0 2px rgb(0, 255, 0),
+			   0 0 4px rgb(0, 255, 0),
+			   0 0 8px rgb(0, 255, 0),	
+			   0 0 16px rgb(0, 255, 0)!important;
+}
+.death {
+	border-radius: 25px !important;
+	background: rgba(245, 192, 227, 0.3) !important;
+	color: #fff !important;
+	text-shadow:0 0 2px rgb(255, 0, 0),
+			   0 0 4px rgb(255, 0, 0),
+			   0 0 8px rgb(255, 0, 0),	
+			   0 0 16px rgb(255, 0, 0)!important;
+	box-shadow:0 0 2px rgb(255, 0, 0),
+			   0 0 4px rgb(255, 0, 0),
+			   0 0 8px rgb(255, 0, 0),	
+			   0 0 16px rgb(255, 0, 0)!important;
+}
+
+.province-holder {
+	margin-bottom: 0 !important;
+	padding: 0 !important;
+	min-height: 500px;
+	border-radius: 25px;
+	background: rgba(245, 0, 0, 0.3) !important;
+	box-shadow:0 0 2px rgb(255, 0, 0),
+			   0 0 4px rgb(255, 0, 0),
+			   0 0 8px rgb(255, 0, 0),	
+			   0 0 16px rgb(255, 0, 0)!important;
+	backdrop-filter: blur(8px);		   
+}
+
+.province-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	font-size: 45px;
+	font-weight: 700;
+	color:#fff;
+	text-shadow:0 0 2px rgb(255, 0, 0),
+			   0 0 4px rgb(255, 0, 0),
+			   0 0 8px rgb(255, 0, 0),	
+			   0 0 16px rgb(255, 0, 0)!important;
+}
+.province-content {
+	height: 300px !important;	
+	overflow: auto;
+	text-transform: uppercase;
+}
+.province-content h3 {
+	padding: 2px; 
+	font-size: 18px;
+	font-weight: 700;
+	border-bottom: 5px solid rgba(165,0,0,0.3);
+	color:#fff;
+	cursor: pointer;
+	text-shadow:0 0 2px green,
+				0 0 4px green,
+				0 0 8px green,
+				0 0 16px green !important;
+}
+.province-content span {
+	padding-left: 10px;
+	padding-right:5px; 
+	font-size: 30px;
+	font-weight: 700;
+	color:#fff;
+	cursor: pointer;
+	text-shadow:0 0 2px red,
+				0 0 4px red,
+				0 0 8px red,
+				0 0 16px red !important;
+}
+
+.chart-container {
+   display: flex;
+   justify-content: center;
+   width: 90%;
+   backdrop-filter:blur(8px);
+}
+.graph-holder h3 {
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 500;
+	color:#fff;
+	text-shadow:0 0 2px red,
+				0 0 4px red,
+				0 0 8px red,
+				0 0 16px red;
+}
+
+@media (max-width: 770px) {
+  .cards {
+    margin: 1% 0 !important;
+  }
+  .chart-container {
+  	width: 100%;
+  }
+}
